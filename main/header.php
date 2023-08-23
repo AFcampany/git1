@@ -1,14 +1,22 @@
+<?php
+$meta = ['anis', 'younes'];
+[$model, $function] = $meta;
+    echo $model;
+    echo $function;
+?>
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo dirname(__DIR__) . '/mian/main.css'?>">
-    <title><?= $title?></title>
+    <link rel="stylesheet" href="<?php echo dirname(__DIR__) . '/mian/main.css' ?>">
+    <title><?= $title ?></title>
 </head>
+
 <body>
-      <header>
+    <header>
         <div><img src="logo.jpg" alt="logo"></div>
         <div>
             <ul>
@@ -18,8 +26,7 @@
                 <li><a href="#">login</a></li>
             </ul>
         </div>
-      </header>
-      <h2><?php echo dirname(__DIR__) . '/main/mian.css' ?></h2>
-      <main>
+    </header>
+    <main>
 
-      <!-- main de la page -->
+        <!-- main de la page -->
